@@ -1,0 +1,32 @@
+$c-light: #ffffff;
+$c-dark: #5f458c;
+$c-purple: #a67ee5;
+
+$font: "Proxima Nova", "Arial", sans-serif;
+$font-alt: "Radical",  "Arial", sans-serif;
+
+$stop-scaling: 2000px;
+
+$wide-screen: "min-aspect-ratio: 1680/650";
+
+$wider: "min-aspect-ratio: 1441/760";
+$narrower: "max-aspect-ratio: 1439/760";
+
+$tablet: 1024px;
+$mobile: 768px;
+
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
+
+$index: 1.38871;
+
+$duration-shortest: 0.15s;
+$duration-short: 0.35s;
+$duration-standard: 0.5s;
+$duration-long: 1s;
+$duration-longest: 1.5s;
+
+$easeOutQuad: cubic-bezier(0.5, 1, 0.89, 1);
+$easeOutBack: cubic-bezier(0.44, 1.66, 0.64, 1);
+$func-entering: ease-out;
+$func-leaving: ease-in;
